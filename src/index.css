@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Transforma Mix';
+  src: url('./assets/fonts/TransformaMix-Medium.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Darker Grotesque';
+  src: url('./assets/fonts/DarkerGrotesque-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mustica Pro';
+  src: url('./assets/fonts/MusticaPro-SemiBold.otf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
