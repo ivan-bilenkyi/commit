@@ -1,7 +1,13 @@
+import { Hero } from '../../components/Hero/Hero.jsx';
+import { Header } from '../../components/Header/Header.jsx';
+
 function HomePage() {
-  return <>
-    <h1>Home Page</h1>
-  </>
+  return (
+    <>
+      <Header/>
+      <Hero/>
+    </>
+  );
 }
 
 export default HomePage;

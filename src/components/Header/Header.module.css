@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.open_burger_menu_button {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    background: url('../../assets/icons/open-burger.svg') no-repeat center;
+    background-size: contain;
+}
+
+
+

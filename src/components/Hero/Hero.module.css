@@ -1,0 +1,33 @@
+.section {
+    background-image: url("../../assets/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    max-width: 768px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper {
+    padding: 20px 20px 60px;
+}
+
+.title {
+    color: #F7F5F5;
+    font-family: "Transforma Mix";
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.text {
+    color: #F7F5F5;
+    font-family: "Mustica Pro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.27;
+}
