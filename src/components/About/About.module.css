@@ -1,0 +1,107 @@
+.section {
+    padding: 60px 10px 0;
+    max-width: 768px;
+    width: 100%;
+}
+
+.top_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #E3000B;
+    font-family: "Transforma Mix";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.subtitle:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 34px;
+    background: url('../../assets/images/chevron-red.png') no-repeat center;
+    background-size: contain;
+}
+
+.title {
+    color: #171313;
+    font-family: "Mustica Pro";
+    font-size: 28px;
+    line-height: 1;
+}
+
+.subtext {
+    color: #606060;
+    font-family: "Darker Grotesque";
+    font-size: 16px;
+    line-height: 1.37;
+}
+
+.wrapper {
+
+}
+
+.image_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    aspect-ratio: 1 / .85;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item_image_wrapper {
+    /* Приховуємо цей елемент */
+    display: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 24px;
+    background: #F7F5F5;
+    max-width: calc(50% - 5px);
+    width: 100%;
+    height: auto;
+}
+
+.item span {
+    color: #E3000B;
+    font-family: "Mustica Pro";
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.item p {
+    color: #171313;
+    font-family: "Mustica Pro";
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.8;
+}
+
