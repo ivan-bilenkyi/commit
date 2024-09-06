@@ -6,7 +6,7 @@ export const Cases = () => {
   const caseData = [data.sites, data.store];
 
   return (
-    <section className={css.section}>
+    <section className={css.section} id="cases">
       <div className={css.top_wrapper}>
         <p className={css.subtitle}>кейси</p>
         <h2 className={css.title}>Реалізовані ідеї наших клієнтів</h2>

@@ -53,8 +53,9 @@
     display: flex;
     gap: 6px;
     overflow-x: scroll;
-    scroll-behavior: smooth; /* Плавний скрол */
-    scrollbar-width: auto; /* Для Firefox: скролбар завжди видимий */
+    scroll-behavior: smooth;
+    scrollbar-width: auto;
+    margin-right: -10px;
 
     &::-webkit-scrollbar {
         width: 15px;
@@ -67,5 +68,6 @@
     &::-webkit-scrollbar-track {
         background-color: #EFEFEF;
         border-radius: 25px;
+        margin-right: 10px;
     }
 }

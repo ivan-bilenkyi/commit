@@ -1,0 +1,62 @@
+.footer {
+    background-color: #171313;
+    padding: 20px;
+    color: #606060;
+    font-family: Mustica Pro, sans-serif;
+    margin: -10px;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #606060;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.footer_title {
+    color: #F7F5F5;
+    font-family: Syne, sans-serif;
+    font-size: 33.15px;
+    line-height: 1;
+    letter-spacing: 0.276px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    color: #F7F5F5;
+    font-family: Mustica Pro, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.top_title {
+    color: #F7F5F5;
+    font-family: "Transforma Mix";
+    font-size: 20px;
+    line-height: 1.44;
+}
+
+.social_wrapper {
+    padding-top: 40px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.42;
+}
+
+.social_list {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.icon {
+    width: 19px;
+    height: 19px;
+    fill: #E3000B;
+}

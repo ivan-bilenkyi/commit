@@ -14,9 +14,9 @@ export const BurgerMenu = ({toggleMenu}) => {
         <Logo />
       </div>
       <ul>
-        <li><a href="#">про нас</a></li>
-        <li><a href="#">кейси</a></li>
-        <li><a href="#">контакти</a></li>
+        <li><a href="#about" onClick={toggleMenu}>про нас</a></li>
+        <li><a href="#cases" onClick={toggleMenu}>кейси</a></li>
+        <li><a href="#footer" onClick={toggleMenu}>контакти</a></li>
       </ul>
     </div>
   )

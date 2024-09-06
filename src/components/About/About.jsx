@@ -3,7 +3,7 @@ import image from '../../assets/images/builder.png'
 
 export const About = () => {
   return (
-    <section className={css.section}>
+    <section className={css.section} id="about">
       <div className={css.top_wrapper}>
         <p className={css.subtitle}>Про нас</p>
         <h2 className={css.title}>Індивідуальний підхід та гнучкість для створення цифрових рішень</h2>
