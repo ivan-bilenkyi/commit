@@ -13,7 +13,13 @@ export const Header = () => {
 
   return (
     <header className={css.header}>
-
+      <nav className={css.nav}>
+        <ul>
+          <li><a href="#about">про нас</a></li>
+          <li><a href="#cases">кейси</a></li>
+          <li><a href="#footer">контакти</a></li>
+        </ul>
+      </nav>
       {!isActive && (
         <>
           <div
@@ -26,6 +32,7 @@ export const Header = () => {
           </div>
           <Logo />
         </>)}
+      <button className={css.order_button}>замовити</button>
       {isActive && (<BurgerMenu toggleMenu={toggleMenu} />)}
 
     </header>

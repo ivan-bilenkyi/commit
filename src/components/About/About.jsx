@@ -1,5 +1,6 @@
-import css from './About.module.css'
-import image from '../../assets/images/builder.png'
+import css from './About.module.css';
+import image from '../../assets/images/builder.png';
+import hands from '../../assets/images/hands.jpg';
 
 export const About = () => {
   return (
@@ -15,21 +16,21 @@ export const About = () => {
         </div>
         <ul className={css.list}>
           <li className={css.item_image_wrapper}>
-            <img className={css.item_image} src={image} alt="руки" />
+            <img className={css.item_image} src={hands} alt="руки" />
           </li>
-          <li className={`${css.item} ${css.item1}`}>
+          <li className={css.item}>
             <span>1250+</span>
             <p>виконаних проектів</p>
           </li>
-          <li className={`${css.item} ${css.item2}`}>
+          <li className={css.item}>
             <span>10mln+</span>
             <p>рядків коду</p>
           </li>
-          <li className={`${css.item} ${css.item3}`}>
+          <li className={css.item}>
             <span>99%</span>
             <p>задоволених клієнтів</p>
           </li>
-          <li className={`${css.item} ${css.item4}`}>
+          <li className={css.item}>
             <span>85%</span>
             <p>зростання бізнесу</p>
           </li>
