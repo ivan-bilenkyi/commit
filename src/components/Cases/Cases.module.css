@@ -1,8 +1,9 @@
 .section {
     padding-top: 60px;
     padding-bottom: 40px;
-    max-width: 768px;
+    max-width: 1440px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .top_wrapper {
@@ -69,5 +70,27 @@
         background-color: #EFEFEF;
         border-radius: 25px;
         margin-right: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section {
+        padding-top: 40px;
+    }
+
+    .top_wrapper {
+        flex-direction: row;
+        gap: 80px;
+        padding: 80px 40px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .subtext {
+        max-width: 678px;
+        width: 100%;
+        font-size: 20px;
     }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 90vw;
+    width: 90%;
     border-radius: 20px;
     overflow: hidden;
     flex-shrink: 0;
@@ -53,4 +53,29 @@
     background: #F7F5F5;
     border-radius: 50%;
     flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+    .case_item {
+        margin-bottom: 34px;
+    }
+
+    .case_title {
+        font-size: 64px;
+    }
+
+    .text_wrapper {
+        gap: 40px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+
+    .details_item {
+        font-size: 30px;
+        align-items: center;
+    }
 }
